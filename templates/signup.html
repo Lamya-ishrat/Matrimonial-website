@@ -1,0 +1,55 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta http-equiv="X-UA-Compatible" content="ie=edge">
+        <title>Sign Up</title>
+
+        <!-- Font Icon -->
+        <link rel="stylesheet" href="{% static 'base/css/material-design-iconic-font.min.css' %}">
+
+        <!-- Main css -->
+        <link rel="stylesheet" href="{% static 'base/css/style-signup.css' %}">
+    </head>
+    <body>
+
+        <div class="main" style="background-image: url('static/base/img/signup-bg.png');">
+
+            <section class="signup">
+                <div class="container">
+                    <div class="signup-content">
+                        <div class="signup-form">
+                            <h2 class="form-title">SIGN UP</h2>
+                            <form method="POST" class="register-form" id="register-form">
+                                {% csrf_token %}
+                                {{form.username.label}}
+                                {{form.username}}
+                                {{form.password1.label}}
+                                {{form.password1}}
+                                {{form.password2.label}}
+                                {{form.password2}}
+                                <div class="form-group form-button">
+                                    <div class="right">
+                                        {% for field in form %}
+                                            <div class="fieldWrapper">
+                                                {{ field.errors }}
+                                            </div>
+                                        {% endfor %}
+                                    </div>
+                                    <input type="submit" name="signup_submit" id="signup" class="form-submit" value="Sign up"/>
+                                        <a href="../login/">I am already member</a>
+                                </div>
+                            </form>
+                        </div>
+                       
+                    </div>
+                </div>
+            </section>
+
+        </div>
+
+    </body>
+</html>

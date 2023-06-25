@@ -1,0 +1,898 @@
+{% load static %}
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<title>Trusted Bangladeshi Matrimonial Site</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+
+	<!-- google fonts -->
+
+	<!-- Css link -->
+	<link rel="stylesheet" href="http://code.ionicframework.com/ionicons/2.0.1/css/ionicons.min.css">
+	<link rel="stylesheet" href="{% static 'base/css/font-awesome.min.css'%}">
+	<link rel="stylesheet" href="{% static 'base/css/owl.carousel.css'%}">
+	<link rel="stylesheet" href="{% static 'base/css/owl.transitions.css'%}">
+	<link rel="stylesheet" href="{% static 'base/css/animate.min.css'%}">
+	<link rel="stylesheet" href="{% static 'base/css/lightbox.css'%}">
+	<link rel="stylesheet" href="{% static 'base/css/bootstrap.min.css'%}">
+	<link rel="stylesheet" href="{% static 'base/css/preloader.css'%}">
+	<link rel="stylesheet" href="{% static 'base/css/image.css'%}">
+	<link rel="stylesheet" href="{% static 'base/css/icon.css'%}">
+	<link rel="stylesheet" href="{% static 'base/css/style.css'%}">
+	<link rel="stylesheet" href="{% static 'base/css/responsive.css'%}">
+	<script src="https://kit.fontawesome.com/4686d70374.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body id="top">
+
+
+	<header id="navigation" class="navbar-fixed-top animated-header">
+		<div class="container">
+			<div class="navbar-header">
+				<!-- responsive nav button -->
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<!-- /responsive nav button -->
+
+				<!-- logo -->
+				<h1 class="navbar-brand">
+					<a href="#body"><img src="{% static 'base/img/logo.png'%}" height="40" width="164" alt=""></a>
+				</h1>
+				<!-- /logo -->
+			</div>
+
+			<!-- main nav -->
+			<nav class="collapse navbar-collapse navbar-right" role="navigation">
+				<ul id="nav" class="nav navbar-nav menu">
+					<li><a href="#top">Home</a></li>
+					<li><a href="#features">Service</a></li>
+					<li><a href="#portfolio">Portfolio</a></li>
+					<li><a href="#team">Team</a></li>
+					<li><a href="#pricing-table">Price</a></li>
+					<li><a href="#blog">Blog</a></li>
+					<li><a href="#testimonial">Testimonial</a></li>
+					<li><a href="#contact-form">Contact</a></li>
+
+					<li><a href="{% url 'login' %}">Signup/Login</a></li>
+
+				</ul>
+			</nav>
+			<!-- /main nav -->
+
+		</div>
+	</header>
+
+
+	<div class="wrapper">
+		<section id="banner">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="block">
+							<h1>SEARCH. MARRY. LOVE. FOR ETERNITY</h1>
+							<h2> “The highest happiness on earth is marriage.”</h2>
+
+						</div>
+					</div>
+				</div>
+			</div>
+			<div class="scrolldown">
+				<a id="scroll" href="#features" class="scroll"></a>
+			</div>
+		</section>
+		<section id="features">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="title">
+							<h2>OUR BEST SERVICES</h2>
+
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="col-md-4 col-xs-6 col-sm-6">
+						<div class="feature-block text-center">
+							<div class="icon-box">
+								<i class="fas fa-headset"></i>
+							</div>
+							<h4 class="wow fadeInUp" data-wow-delay=".3s">Customer Service</h4>
+							<p class="wow fadeInUp" data-wow-delay=".5s">We provide customer support from <br> 10 a.m.
+								to 6 p.m. Clients can contact <br> with us via email, phone and <br>Facebook messenger.
+								We try to give <br>simple and expeditious solutions to <br>your problems.</p>
+						</div>
+					</div>
+					<div class="col-md-4 col-xs-6 col-sm-6">
+						<div class="feature-block text-center">
+							<div class="icon-box">
+								<i class="fas fa-hands-helping"></i>
+							</div>
+							<h4 class="wow fadeInUp" data-wow-delay=".3s">Special consultancy</h4>
+							<p class="wow fadeInUp" data-wow-delay=".5s">We advice on how to make your<br> profile stand
+								out. If you are a <br>premium customer, we will aid you in<br> search of suitable
+								matches based on <br>your preferences. We will aid you by <br>providing some links of
+								potential<br> bride/groom based on your <br>preference.</p>
+						</div>
+					</div>
+					<div class="col-md-4 col-xs-6 col-sm-6">
+						<div class="feature-block text-center">
+							<div class="icon-box">
+								<i class="fas fa-shield-alt"></i>
+							</div>
+							<h4 class="wow fadeInUp" data-wow-delay=".3s">Security and privacy ensured</h4>
+							<p class="wow fadeInUp" data-wow-delay=".5s">Your photo, real name and complete<br> profile
+								will not be seen by any other<br> user without your permission. For <br>contact
+								information user have to go<br> through two step security process.<br> We also verify
+								mobile number and<br> take necessary action against <br>doubtful profile.</p>
+						</div>
+					</div>
+					<div class="col-md-4 col-xs-6 col-sm-6">
+						<div class="feature-block text-center">
+							<div class="icon-box">
+								<i class="fab fa-facebook"></i>
+							</div>
+							<h4 class="wow fadeInUp" data-wow-delay=".3s">Facebook page for live interaction</h4>
+							<p class="wow fadeInUp" data-wow-delay=".5s">We have a facebook page where our<br> clients
+								may initiate live interaction <br>with us. We try to solve any type of<br> problems and
+								answer any kind of<br> query of our clients. Besides we <br>sometime post our registered
+								clients <br>words about themselves in our page.</p>
+						</div>
+					</div>
+					<div class="col-md-4 col-xs-6 col-sm-6">
+						<div class="feature-block text-center">
+							<div class="icon-box">
+								<i class="fas fa-bell"></i>
+							</div>
+							<h4 class="wow fadeInUp" data-wow-delay=".3s">Trusted Matrimonial Service</h4>
+							<p class="wow fadeInUp" data-wow-delay=".5s">We have long time of experience <br> working with clients
+								around the country. <br> Bangladeshis cherish the meaning of <br> happy marriage
+								and we try our <br> best to help our clients. <br> This website respects the privacy of
+								clients <br> The Bell for Happiness.</p>
+						</div>
+					</div>
+					<div class="col-md-4 col-xs-6 col-sm-6">
+						<div class="feature-block text-center">
+							<div class="icon-box">
+								<i class="far fa-surprise"></i>
+							</div>
+							<h4 class="wow fadeInUp" data-wow-delay=".3s">Offer & Surprises</h4>
+							<p class="wow fadeInUp" data-wow-delay=".5s">It's the best completion discount <br> around.
+								Get 20% Off during this November <br> to February in membership registration.<br> And
+								get special <br> gift hampers from our <br> partner's post-wedding after
+								taking service. <br>Enjoy the journey.</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="counter">
+			<div class="container">
+				<div class="row">
+					<div class="title">
+						<h2>OUR WORKS</h2>
+
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-6">
+						<div class="block wow fadeInRight" data-wow-delay=".3s">
+							<i class="ion-happy"></i>
+							<p class="count-text">
+								<span class="counter-digit"> 399</span>
+							</p>
+							<p>Happy Clients</p>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-6">
+						<div class="block wow fadeInRight" data-wow-delay=".5s">
+							<i class="ion-compass"></i>
+							<p class="count-text">
+								<span class="counter-digit"> 430</span> +
+							</p>
+							<p>Projects</p>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-6">
+						<div class="block wow fadeInRight" data-wow-delay=".7s">
+							<i class="ion-android-hand"></i>
+							<p class="count-text">
+								<span class="counter-digit">399</span>
+							</p>
+							<p>Positive feedback</p>
+						</div>
+					</div>
+					<div class="col-md-3 col-sm-6 col-xs-6">
+						<div class="block wow fadeInRight" data-wow-delay=".9s">
+							<i class="ion-image"></i>
+							<p class="count-text">
+								<span class="counter-digit">350</span>
+							</p>
+							<p>Pictures</p>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="portfolio">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="title">
+							<h2>LATEST WORKS</h2>
+
+						</div>
+						<div class="block">
+									<div class="recent-work-mixMenu">
+										<ul>
+											<li><button class="filter" data-filter="all">All</button></li>
+
+										</ul>
+									</div>
+									<div class="recent-work-pic">
+										<ul id="mixed-items">
+											<li class="mix category-1 col-md-4 col-xs-6" data-my-order="1">
+												<a class="example-image-link" href="{% static 'base/img/work-1.jpg'%}"
+													data-lightbox="example-set">
+													<img class="img-responsive" src="{% static 'base/img/work-1.jpg'%}" alt="">
+													<div class="overlay">
+														<h3>View</h3>
+														<i class="ion-ios-plus-empty"></i>
+													</div>
+												</a>
+											</li>
+
+										</ul>
+									</div>
+									
+								</div>
+							</div>
+							<div class="recent-work-pic">
+								<ul id="mixed-items">
+									<li class="mix category-1 col-md-4 col-xs-6" data-my-order="1">
+										<a class="example-image-link" href="{% static 'base/img/work-2.jpg'%}"
+											data-lightbox="example-set">
+											<img class="img-responsive" src="{% static 'base/img/work-2.jpg'%}" alt="">
+											<div class="overlay">
+												<h3>View</h3>
+												<i class="ion-ios-plus-empty"></i>
+											</div>
+										</a>
+									</li>
+
+								</ul>
+							</div>
+							
+						</div>
+					</div>
+						<div class="recent-work-pic">
+							<ul id="mixed-items">
+								<li class="mix category-1 col-md-4 col-xs-6" data-my-order="1">
+									<a class="example-image-link" href="{% static 'base/img/work-3.jpg'%}"
+										data-lightbox="example-set">
+										<img class="img-responsive" src="{% static 'base/img/work-3.jpg'%}" alt="">
+										<div class="overlay">
+											<h3>View</h3>
+											<i class="ion-ios-plus-empty"></i>
+										</div>
+									</a>
+								</li>
+
+							</ul>
+						</div>
+						<div class="recent-work-pic">
+							<ul id="mixed-items">
+								<li class="mix category-1 col-md-4 col-xs-6" data-my-order="1">
+									<a class="example-image-link" href="{% static 'base/img/work-4.jpg'%}"
+										data-lightbox="example-set">
+										<img class="img-responsive" src="{% static 'base/img/work-4.jpg'%}" alt="">
+										<div class="overlay">
+											<h3>View</h3>
+											<i class="ion-ios-plus-empty"></i>
+										</div>
+									</a>
+								</li>
+
+							</ul>
+							</div>
+							<div class="recent-work-pic">
+								<ul id="mixed-items">
+									<li class="mix category-1 col-md-4 col-xs-6" data-my-order="1">
+										<a class="example-image-link" href="{% static 'base/img/work-5.jpg'%}"
+											data-lightbox="example-set">
+											<img class="img-responsive" src="{% static 'base/img/work-5.jpg'%}" alt="">
+											<div class="overlay">
+												<h3>View</h3>
+												<i class="ion-ios-plus-empty"></i>
+											</div>
+										</a>
+									</li>
+
+								</ul>
+							</div>
+							<div class="recent-work-pic">
+								<ul id="mixed-items">
+									<li class="mix category-1 col-md-4 col-xs-6" data-my-order="1">
+										<a class="example-image-link" href="{% static 'base/img/work-6.jpg'%}"
+											data-lightbox="example-set">
+											<img class="img-responsive" src="{% static 'base/img/work-6.jpg'%}" alt="">
+											<div class="overlay">
+												<h3>View</h3>
+												<i class="ion-ios-plus-empty"></i>
+											</div>
+										</a>
+									</li>
+
+								</ul>
+							</div>
+							<div class="recent-work-pic">
+								<ul id="mixed-items">
+									<li class="mix category-1 col-md-4 col-xs-6" data-my-order="1">
+										<a class="example-image-link" href="{% static 'base/img/work-7.jpg'%}"
+											data-lightbox="example-set">
+											<img class="img-responsive" src="{% static 'base/img/work-7.jpg'%}" alt="">
+											<div class="overlay">
+												<h3>View</h3>
+												<i class="ion-ios-plus-empty"></i>
+											</div>
+										</a>
+									</li>
+
+											</ul>
+										</div>
+										<div class="recent-work-pic">
+											<ul id="mixed-items">
+												<li class="mix category-1 col-md-4 col-xs-6" data-my-order="1">
+													<a class="example-image-link" href="{% static 'base/img/work-8.jpg'%}"
+														data-lightbox="example-set">
+														<img class="img-responsive" src="{% static 'base/img/work-8.jpg'%}" alt="">
+														<div class="overlay">
+															<h3>View</h3>
+															<i class="ion-ios-plus-empty"></i>
+														</div>
+													</a>
+												</li>
+
+											</ul>
+										</div>
+										<div class="recent-work-pic">
+											<ul id="mixed-items">
+												<li class="mix category-1 col-md-4 col-xs-6" data-my-order="1">
+													<a class="example-image-link" href="{% static 'base/img/work-9.jpg'%}"
+														data-lightbox="example-set">
+														<img class="img-responsive" src="{% static 'base/img/work-9.jpg'%}" alt="">
+														<div class="overlay">
+															<h3>View</h3>
+															<i class="ion-ios-plus-empty"></i>
+														</div>
+													</a>
+												</li>
+
+											</ul>
+										</div>
+										<div class="recent-work-pic">
+											<ul id="mixed-items">
+												<li class="mix category-1 col-md-4 col-xs-6" data-my-order="1">
+													<a class="example-image-link" href="{% static 'base/img/work-10.jpg'%}"
+														data-lightbox="example-set">
+														<img class="img-responsive" src="{% static 'base/img/work-10.jpg'%}" alt="">
+														<div class="overlay">
+															<h3>View</h3>
+															<i class="ion-ios-plus-empty"></i>
+														</div>
+													</a>
+												</li>
+
+											</ul>
+										</div>
+										
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+		</section>
+		<section id="play-video">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="block">
+							<h2 class="wow fadeInUp" data-wow-delay=".3s">“True love stories never have endings.”</h2>
+							<p class="wow fadeInUp" data-wow-delay=".5s">Your happiness, our responsibility.</p>
+							<a href="https://www.youtube.com/watch?v=yvtDNzeyY6Q" class="html5lightbox" data-width=800
+								data-height=400>
+								<div class="button ion-ios-play-outline wow zoomIn" data-wow-delay=".3s"></div>
+							</a>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="team">
+			<div class="container">
+				<div class="row">
+					<div class="title">
+						<h2>CREATIVE TEAM</h2>
+						<p></p>
+					</div>
+					<div class="col-md-4 col-sm-4 col-xs-6">
+						<div class="block wow fadeInLeft" data-wow-delay=".3s">
+							<img src="{% static 'base/img/team-img11.jpg'%}" alt="">
+							<div class="team-overlay">
+								<h3>SADIA HUQ <span>Team Member</span></h3>
+								<span class="icon"><i class="ion-quote"></i></span>
+								<p>“A good marriage is like a casserole: only those responsible for it really know what
+									goes in it.”</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4  col-sm-4 col-xs-6">
+						<div class="block wow fadeInLeft" data-wow-delay=".6s">
+							<img src="{% static 'base/img/team-img2.jpg'%}" alt="">
+							<div class="team-overlay">
+								<h3>SHUVO KUMAR DAS <span>Team Member</span></h3>
+								<span class="icon"><i class="ion-quote"></i></span>
+								<p>“When you look for the right person, you always end up with the wrong one. But when
+									you just sit by the corner and wait, he comes along and shares the corner with you.”
+								</p>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4  col-sm-4 col-xs-6">
+						<div class="block wow fadeInLeft" data-wow-delay=".9s">
+							<img src="{% static 'base/img/team-img3.jpg'%}" alt="">
+							<div class="team-overlay">
+								<h3>LAMYA ISHRAT NODI<span>Team Member</span></h3>
+								<span class="icon"><i class="ion-quote"></i></span>
+								<p>“Marrying a man is like buying something you’ve been admiring for a long time in a
+									shop window. You may love it when you get it home, but it doesn’t always go with
+									everything else.”</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="pricing-table">
+			<div class="container">
+				<div class="row">
+					<div class="title">
+						<h2>PRICING TABLE</h2>
+						<p>Choose Your Plan</p>
+					</div>
+					<div class="col-md-4 col">
+						<div class="block text-center wow fadeInLeft" data-wow-delay=".3s">
+							<ul>
+								<li>
+									<h4>SILVER</h4>
+									<p>TK. 1200 <span>/Month</span></p>
+								</li>
+								<li>
+									<p>2 Month Validity</p>
+								</li>
+								<li>
+									<p>See short profiles</p>
+								</li>
+								<li>
+									<p>Allow to see your biodata</p>
+								</li>
+								<li>
+									<p>Ask to contact<br> (25)</p>
+								</li>
+								<li>
+									<p>Download biodata</p>
+								</li>
+								<li>
+									<p>Newspaper Advertisements</p>
+								</li>
+								<li>
+									<p>Recommendation <br>(on demand)</p>
+								</li>
+								<br>
+								<br>
+								<br>
+								<br>
+								<br>
+
+								<li>
+									<a href="{% url 'pricing' %}" class="btn btn-buy">SUBSCRIBE</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-4 col">
+						<div class="block text-center wow zoomIn" data-wow-delay=".3s">
+							<ul>
+								<li>
+									<h4>GOLD</h4>
+									<p>TK. 2500<span>/Month</span></p>
+								</li>
+								<li>
+									<p>6 Month Validity</p>
+								</li>
+								<li>
+									<p>See short profiles</p>
+								</li>
+								<li>
+									<p>Allow to see your biodata</p>
+								</li>
+								<li>
+									<p>Ask to contact<br> (60)</p>
+								</li>
+								<li>
+									<p>Ask to see biodata</p>
+								</li>
+								<li>
+									<p>Download biodata</p>
+								</li>
+								<li>
+									<p>Newspaper Advertisements</p>
+								</li>
+								<li>
+									<p>Expert Consultation<br>(on demand)</p>
+								</li>
+								<li>
+									<p>Recommendation <br>(on demand)</p>
+								</li>
+								<li>
+									<a href="{% url 'pricing' %}" class="btn btn-buy">SUBSCRIBE</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+					<div class="col-md-4 col">
+						<div class="block text-center wow fadeInRight" data-wow-delay=".3s">
+							<ul>
+								<li>
+									<h4>PREMIUM</h4>
+									<p>TK. 4000<span>/Month</span></p>
+								</li>
+								<li>
+									<p>9 Month Validity</p>
+								</li>
+								<li>
+									<p>See short profiles</p>
+								</li>
+								<li>
+									<p>Allow to see your biodata</p>
+								</li>
+								<li>
+									<p>Ask to contact<br> (100)</p>
+								</li>
+								<li>
+									<p>Ask to see biodata</p>
+								</li>
+								<li>
+									<p>Download biodata</p>
+								</li>
+								<li>
+									<p>Newspaper Advertisements</p>
+								</li>
+								<li>
+									<p>Expert Consultation<br>(on demand)</p>
+								</li>
+								<li>
+									<p>Recommendation <br>(on demand)</p>
+								</li>
+								<li>
+									<a href="{% url 'pricing' %}" class="btn btn-buy">SUBSCRIBE</a>
+								</li>
+							</ul>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+		<section id="blog">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="title">
+							<h2>Blog</h2>
+							<p></p>
+						</div>
+						<div id="blog-post" class="owl-carousel">
+							<div>
+								<div class="block">
+									<img src="{% static 'base/img/blog/blog-1s.jpg'%}" alt="" class="img-responsive">
+									<div class="content">
+										<h4><a href="{% url 'blog' %}">About Us</a></h4>
+										<small>By admin / Nov 18, 2021</small>
+										<p>
+											What is marriage? Wedding Bell is a Bangladeshi website looking for a bride
+											or groom online. We've been working since 2014 and we now have over 20,000
+											fully verified profiles. We have tried to create a platform that facilitates
+											the process of getting acquainted with the bride and groom.
+										</p>
+										<a href="{% url 'blog' %}" class="btn btn-read">Read More</a>
+
+									</div>
+								</div>
+							</div>
+							<div>
+								<div class="block">
+									<img src="{% static 'base/img/blog/blog-1n.jpg'%}" alt="" class="img-responsive">
+									<div class="content">
+										<h4><a href="{% url 'blog' %}">Wedding Bell VS. Ghatak</a></h4>
+										<small>By admin / Nov 18, 2021</small>
+										<p>
+											It is popular and ancient method of marriage to search for a bride and groom
+											by the Ghatak. When the marriage took place, both the groom's party and the bride's
+											party used to honor Ghatak Sahib.Now the people who used to work as Ghataks are taking
+											less risk due to different post-marriage conditions.
+										</p>
+										<a href="{% url 'blog' %}" class="btn btn-read">Read More</a>
+
+									</div>
+								</div>
+							</div>
+							<div>
+								<div class="block">
+									<img src="{% static 'base/img/blog/blog-3nn.jpg'%}" alt="" class="img-responsive">
+									<div class="content">
+										<h4><a href="blog.html">Understanding Companionship In Marriage</a></h4>
+										<small>By admin / Nov 18, 2021</small>
+										<p>
+											One major purpose of marriage, if not the main one, is companionship. Loneliness is
+											hazardous to human life, and being without someone to love is killing.Without companionship,
+											marriage is a mirage. Companionship is the key determinant factor of any lasting marriage.
+										</p>
+										<a href="{% url 'blog' %}" class="btn btn-read">Read More</a>
+
+									</div>
+								</div>
+							</div>
+							<div>
+								<div class="block">
+									<img src="{% static 'base/img/blog/blog-4n.jpg'%}" alt="" class="img-responsive">
+									<div class="content">
+										<h4><a href="{% url 'blog' %}">Embrace Their Flaws</a>
+										</h4>
+										<small>By admin / Nov 18, 2021</small>
+										<p>
+											A healthy and successful relationship is genuinely accepting your partner for who they are.
+											However, most couples fail to recognize this fact because they are either too busy
+											looking for perfection or too occupied focusing on their partner’s flaws. Treat your partner as an actual human being.
+										</p>
+										<a href="{% url 'blog' %}" class="btn btn-read">Read More</a>
+
+									</div>
+								</div>
+							</div>
+							<div>
+								<div class="block">
+									<img src="{% static 'base/img/blog/blog-11.jpg'%}" alt="" class="img-responsive">
+									<div class="content">
+										<h4><a href="{% url 'blog' %}">Wedding Budget Breakdown</a></h4>
+										<small>By admin / Nov 18, 2021</small>
+										<p>
+											Of all the complicated aspects of wedding planning, one of the most
+											challenging for couples is creating and sticking to a reasonable wedding
+											budget. While it can be daunting in many ways, experts agree that
+											establishing a budget is crucial for most couples.
+										</p>
+										<a href="{% url 'blog' %}" class="btn btn-read">Read More</a>
+
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+
+
+
+
+		<section id="testimonial">
+			<div class="container">
+				<div class="row">
+					<div class="title">
+						<h2>TESTIMONIAL</h2>
+						<p>Success stories</p>
+					</div>
+					<div class="col col-md-6">
+						<div class="media wow fadeInLeft" data-wow-delay=".3s">
+							<div class="media-left">
+								<a href="#">
+									<img src="{% static 'base/img/rr.png'%}" alt="">
+								</a>
+							</div>
+							<div class="media-body">
+								<a href="#">
+									<h4 class="media-heading">SONIA AND JAHID</h4>
+								</a>
+								<p>I got a message from Jahid, after which we talked on call, in the very first
+									conversation, we clicked. We talked for 3 hours. I found him a gentleman kind of a
+									guy, he found me very mature. We discussed about a lot of things, it felt like he is
+									like the missing piece of my jigsaw puzzle. We used to discuss about a lot of
+									things, future, insecurities, past and what not. We both felt we are made for each
+									other. On 9 November, we got engaged.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col col-md-6">
+						<div class="media wow fadeInRight" data-wow-delay=".3s">
+							<div class="media-left">
+								<a href="#">
+									<img src="{% static 'base/img/r2.png'%}" alt="">
+								</a>
+							</div>
+							<div class="media-body">
+								<a href="#">
+									<h4 class="media-heading">NABILA AND FAHIM</h4>
+								</a>
+								<p>Before meeting him, we were in touch via chat or calls for around 8 days 
+									And yeah it was enough for us to decide to move further without meeting.
+									Last month we got married with the blessings of almighty and celebrated our decision.
+									And I am glad I found my soulmate online, did not think ever it would be possible as
+									I am a very introvert person. Well I can say we were ment to be so, here we are.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col col-md-6">
+						<div class="media wow fadeInLeft" data-wow-delay=".3s">
+							<div class="media-left">
+								<a href="#">
+									<img src="{% static 'base/img/r3.png'%}" alt="">
+								</a>
+							</div>
+							<div class="media-body">
+								<a href="#">
+									<h4 class="media-heading">TUSHAR AND OMI</h4>
+								</a>
+								<p>I just thought one day to choose my partner online and registered and on the same day
+									got a request. Initially, we didn't talk much for few days and then slowly started 
+									the conversation and got attached. Our families met and everything worked perfectly.
+									Thanks to WeddingBell for giving me the partner I deserved. We both are really happy
+									with our marriage and so our families are.</p>
+							</div>
+						</div>
+					</div>
+					<div class="col col-md-6">
+						<div class="media wow fadeInRight" data-wow-delay=".3s">
+							<div class="media-left">
+								<a href="#">
+									<img src="{% static 'base/img/r4.png'%}" alt="">
+								</a>
+							</div>
+							<div class="media-body">
+								<a href="#">
+									<h4 class="media-heading">JEWEL AND JENNY</h4>
+								</a>
+								<p>We came across each other's profile on WeddingBell. We interacted and got gel.
+									Then our families got to know each other and mingled with one another. During the
+									course of time we kept on talking with each other over phone and met in person couple
+									of times. Finally we got engaged in October and git hitched in December 2021. We extend our
+									warm regards to WeddingBell to get us reach our destiny.</p>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="client-logo">
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="block">
+							<div id="Client_Logo" class="owl-carousel">
+								<div>
+									<a href="#"><img class="img-responsive"
+											src="{% static 'base/img/clientLogo/client-logo1.jpg'%}" alt=""></a>
+								</div>
+								<div>
+									<a href="#"><img class="img-responsive"
+											src="{% static 'base/img/clientLogo/client-logo2.jpg'%}" alt=""></a>
+								</div>
+								<div>
+									<a href="#"><img class="img-responsive"
+											src="{% static 'base/img/clientLogo/client-logo3.jpg'%}" alt=""></a>
+								</div>
+								<div>
+									<a href="#"><img class="img-responsive"
+											src="{% static 'base/img/clientLogo/client-logo4.jpg" alt=""></a>
+								</div>
+								<div>
+									<a href="#"><img class="img-responsive"
+											src="{% static 'base/img/clientLogo/client-logo5.jpg'%}" alt=""></a>
+								</div>
+								<div>
+									<a href="#"><img class="img-responsive"
+											src="{% static 'base/img/clientLogo/client-logo6.jpg'%}" alt=""></a>
+								</div>
+								<div>
+									<a href="#"><img class="img-responsive"
+											src="{% static 'base/img/clientLogo/client-logo1.jpg'%}" alt=""></a>
+								</div>
+								<div>
+									<a href="#"><img class="img-responsive"
+											src="{% static 'base/img/clientLogo/client-logo2.jpg'%}" alt=""></a>
+								</div>
+								<div>
+									<a href="#"><img class="img-responsive"
+											src="{% static 'base/img/clientLogo/client-logo3.jpg'%}" alt=""></a>
+								</div>
+								<div>
+									<a href="#"><img class="img-responsive"
+											src="{% static 'base/img/clientLogo/client-logo4.jpg'%}" alt=""></a>
+								</div>
+								<div>
+									<a href="#"><img class="img-responsive"
+											src="{% static 'base/img/clientLogo/client-logo5.jpg'%}" alt=""></a>
+								</div>
+								<div>
+									<a href="#"><img class="img-responsive"
+											src="{% static 'base/img/clientLogo/client-logo6.jpg'%}" alt=""></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</section>
+		<section id="contact-form">
+			<div class="container">
+				<div class="row">
+					<div class="title">
+						<h2>CONTACT US</h2>
+						<p>Call Us @ 017 5569 0000 (weekly 7 days, 10 am - 6 pm)</p>
+					</div>
+					<div class="col-md-6 col">
+						<!-- map -->
+						<div class="map">
+							<div id="googleMap"></div>
+						</div>
+						<!--/map-->
+
+					</div>
+					<div class="col-md-6">
+						<form>
+							<input type="text" class="form-control" placeholder="Name">
+							<input type="text" class="form-control" placeholder="Email">
+							<textarea class="form-control" rows="3" placeholder="Message"></textarea>
+							<button class="btn btn-default" type="submit">SEND</button>
+						</form>
+					</div>
+				</div>
+			</div>
+		</section>
+		<footer>
+			<div class="container">
+				<div class="row">
+					<div class="col-md-12">
+						<div class="block">
+							<a href="#"><img src="{% static 'base/img/logo.png'%}" alt=""></a>
+							
+						</div>
+					</div>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<!-- load Js -->
+	<script src="{% static 'base/js/jquery-1.11.3.min.js'%}"></script>
+	<script src="{% static 'base/js/bootstrap.min.js'%}"></script>
+	<script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyBI14J_PNWVd-m0gnUBkjmhoQyNyd7nllA"></script>
+	<script src="{% static 'base/js/waypoints.min.js"></script>
+	<script src="{% static 'base/js/lightbox.js'%}"></script>
+	<script src="{% static 'base/js/jquery.counterup.min.js'%}"></script>
+	<script src="{% static 'base/js/owl.carousel.min.js'%}"></script>
+	<script src="{% static 'base/js/html5lightbox.js'%}"></script>
+	<script src="{% static 'base/js/jquery.mixitup.js'%}"></script>
+	<script src="{% static 'base/js/wow.min.js'%}"></script>
+	<script src="{% static 'base/js/jquery.scrollUp.js'%}"></script>
+	<script src="{% static 'base/js/jquery.sticky.js'%}"></script>
+	<script src="{% static 'base/js/jquery.nav.js'%}"></script>
+	<script src="{% static 'base/js/main.js'%}"></script>
+</body>
+
+</html>

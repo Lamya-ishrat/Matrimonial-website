@@ -1,0 +1,39 @@
+			
+{% block content %}
+     <center>       
+        <h1>Profile</h1>
+
+
+       
+        
+        <img src="{{ biodatadetail.profile_image.url}}"/ ><br/><br/>
+        <p>Name : {{ biodatadetail.name }}</p>
+        
+        <p>Date of Birth :{{ biodatadetail.dob }}</p>
+        <p>Gender :{{ biodatadetail.gender }}</p>
+        <p>Nationality :{{ biodatadetail.nationality }}</p>
+        <p>division : {{ biodatadetail.division }}</p>
+        <p>City : {{ biodatadetail.city }}</p>
+        <p>Education : {{ biodatadetail.education }}</p>
+        <p>Mobile :  {{ biodatadetail.mobile }}</p> 
+        <p>Email : {{ biodatadetail.email }}</p>
+        <p>Father's Name :{{ biodatadetail.father_name }}</p>
+        <p>Mother's name :{{ biodatadetail.mother_name }}</p> 
+        <p>Siblings :{{ biodatadetail.siblings }}</p>
+        {{ biodatadetail.my_file }}
+       
+        
+
+
+
+
+
+    </center>
+
+
+
+        
+
+
+{% endblock %}		
+
